@@ -1,8 +1,8 @@
-defmodule NervesSystemRpi3a.MixProject do
+defmodule NervesSystemRpi3aTailscale.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi3a
+  @github_organization "schrockwell"
+  @app :nerves_system_rpi3a_tailscale
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
